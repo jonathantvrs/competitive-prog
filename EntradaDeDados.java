@@ -1,5 +1,9 @@
+import java.util.Scanner;
+import java.util.Locale;
+
 public class EntradaDeDados {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
         // Lê nome completo, quantidade de quartos na casa e preço do produto em linhas separadas

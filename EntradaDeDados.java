@@ -2,7 +2,7 @@ public class EntradaDeDados {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Lê nome completo, quantidade de quartos na casa e preço do produto separados
+        // Lê nome completo, quantidade de quartos na casa e preço do produto em linhas separadas
         String fullName = sc.nextLine();
         int qtBedrooms = sc.nextInt();
         double productPrice = sc.nextDouble();

@@ -10,5 +10,7 @@ public class Uri1003 {
         int sum = value1 + value2;
 
         System.out.println("SOMA = " + sum);
+
+        sc.close();
     }
 }

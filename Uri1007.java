@@ -18,5 +18,6 @@ public class Uri1007 {
 
         System.out.println("DIFERENCA = " + diff);
 
+        sc.close();
     }
 }

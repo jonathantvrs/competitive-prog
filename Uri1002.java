@@ -12,5 +12,7 @@ public class Uri1002 {
         double area = pi * (Math.pow(radius, 2));
 
         System.out.printf("A=%.4f", area);
+
+        sc.close();
     }
 }

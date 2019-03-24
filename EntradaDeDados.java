@@ -12,6 +12,14 @@ public class EntradaDeDados {
         int age = sc.nextInt();
         double height = sc.nextDouble();
 
+        System.out.println(fullName);
+        System.out.println(qtBedrooms);
+        System.out.println(productPrice);
+
+        System.out.println(lastName);
+        System.out.println(age);
+        System.out.println(height);
+
         sc.close();
     }
 }

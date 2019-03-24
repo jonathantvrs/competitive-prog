@@ -18,11 +18,11 @@ public class EntradaDeDados {
 
         System.out.println(fullName);
         System.out.println(qtBedrooms);
-        System.out.println(productPrice);
+        System.out.printf("%.2f%n", productPrice);
 
         System.out.println(lastName);
         System.out.println(age);
-        System.out.println(height);
+        System.out.printf("%.2f%n", height);
 
         sc.close();
     }

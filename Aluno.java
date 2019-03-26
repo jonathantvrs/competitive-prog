@@ -55,10 +55,10 @@ public class Aluno {
     }
     @Override
     public String toString() {
-        return "Nome: " + this.getName()
-                + "\nMatricula: " + this.getMatricula()
-                + "\nApelido: " + this.getApelido()
-                + "\nNota: " + this.getNota();
+        return "Nome: " + this.getName() + System.lineSeparator()
+                + "Matricula: " + this.getMatricula() + System.lineSeparator()
+                + "Apelido: " + this.getApelido() + System.lineSeparator()
+                + "Nota: " + this.getNota();
     }
 
     public static void main(String[] args) {
